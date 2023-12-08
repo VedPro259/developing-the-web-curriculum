@@ -1,0 +1,20 @@
+.paragraph {
+  font-family: "Agbalumo", sans-serif;
+}
+
+.second {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.image {
+  height: 600px;
+  width: 400px;
+  border-style: solid;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 300px;  
+}
+
+.contrary {
+  font-weight: bold;
+}

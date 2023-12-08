@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .image {
+        height: 300px; 
+        width: 300px;
+        object-fit: cover;
+        border-style: solid; 
+        border-color: red; 
+        border-width: 7px; 
+        border-radius: 30px;
+        object-position: right; 
+      }
+
+      .text-search {
+        box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .span-examples {
+        border-style: solid; 
+        display: inline-block;
+      }
+
+      .date-input {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="cat_glasses.jpg" class="image">
+    <p class="span-examples"><u>This is an underline.</u> <em>This is italic. </em><strong>This is bold.</strong></p>
+
+    <input class="text-search" type="text" placeholder="Search">
+    <input type="number" placeholder="Please enter a number.">
+    <input class="date-input" type="date">
+    <input type="radio">
+  </body>
+</html>
